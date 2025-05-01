@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('../imgs/s1.png') no-repeat center center;
+    background-size: contain; /* Ajusta a imagem para caber na tela sem cortar */
+    background-attachment: fixed; /* Mantém a imagem fixa ao rolar a página */
+}
+
+.resultado-container {
+    background: rgba(255, 255, 255, 0.8); /* Fundo branco semi-transparente */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    max-width: 600px; /* Para evitar que fique muito grande em telas largas */
+}
+
+.resultado-container h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.resultado-container p {
+    font-size: 1.5rem; /* Aumenta o tamanho da fonte */
+    font-weight: bold; /* Deixa o texto em negrito */
+    color: #333; /* Cor escura para melhor contraste */
+    margin-top: 10px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
